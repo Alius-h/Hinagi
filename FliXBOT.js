@@ -773,14 +773,14 @@ user.afkReason = ''
 	    }
 	}
 
-//autoblock 212
+//autoblock 213
 if (global.autoblockmorroco) {
-if (m.sender.startsWith('212')) return Fernazer.updateBlockStatus(m.sender, 'block')
+if (m.sender.startsWith('213')) return Fernazer.updateBlockStatus(m.sender, 'block')
 }
 
-//autokick 212
+//autokick 213
 if (global.autokickmorroco) {
-if (m.isGroup && m.sender.startsWith('212')) return 
+if (m.isGroup && m.sender.startsWith('213')) return 
 }
 
 
